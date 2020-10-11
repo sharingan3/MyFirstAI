@@ -4,8 +4,7 @@ import random
 from time import sleep
 
 all_obstacle_pos = [[], []]
-all_free_space = [(i, j) for i in range(0, 460, 20) for j in range(0, 460, 20)]
-
+all_free_space = [(i, j) for i in range(20, 420, 20) for j in range(20, 420, 20)]
 
 ############################################Snake
 
